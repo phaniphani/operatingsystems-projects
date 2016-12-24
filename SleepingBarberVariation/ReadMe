@@ -1,0 +1,180 @@
+Operating Systems
+CS 4348/5348
+
+Project #2:  Threads
+
+Due Date:   Monday, April 4, 2011
+
+
+I.  Project Organization
+
+This project will study the coordination of multiple threads.
+
+You should do the following pieces to complete your project.  Each piece is explained below:
+
+•	Design	40 points
+•	Code	20 points
+•	Output	20 points
+•	Summary	20 points
+
+
+Design
+
+    Design includes a table of semaphores and pseudocode for each function.
+    The table should list every semaphore, its purpose, and its initial value.
+    The pseudocode should be similar to the pseudocode shown in the textbook for the barbershop problem.
+    Every wait and signal call must be included in the pseudocode.
+
+
+Code
+
+    Your code should be nicely formatted with plenty of comments.
+    The code should be easy to read, properly indented, employ good naming standards, good structure, and should correctly implement the design.
+    Your code should match your pseudocode.
+
+
+Output
+
+     Output will be graded by running your program.
+
+
+Summary
+
+     The summary section should discuss your simulation, any difficulties encountered, what was learned, and results.  It should be at least one page in length.
+
+
+
+II.  Project Description
+
+
+Language/Platform
+
+The project must be written in C, C++, or Java.
+If using C or C++ on Unix, you must use POSIX pthreads and semaphores.
+If using C or C++ on Windows, you may either use a POSIX library or make native Windows calls for thread and semaphore functions.  You may not use other thread control mechanisms in Windows.
+If using Java, you must only use Java Threads and Java Semaphores (java.util.concurrent.Semaphore).
+You may not use the “synchronized” keyword or thread-safe classes in java.util.concurrent.* that provide their own mutual exclusion for this project (other than the Semaphore class).
+
+
+Theater Simulation
+
+A theater is simulated by using threads to model customer and employee behavior.  The objective is to use threads for each person and to use semaphores to coordinate their activities.
+
+This project is similar to the “barbershop” example in the textbook.  The threads to be used are as follows:
+
+Customer:
+1)	300 customers are in line at the box office when the simulation starts (1 thread per customer).
+2)	Each customer randomly chooses one of three movies (movie titles are read from an input file).
+3)	If the movie the customer wants to see is sold out, the customer must randomly choose another movie that the customer has not already chosen.
+4)	The customer must see the ticket taker before entering the theater’s main lobby.
+5)	Only 10 customers can be in the entrance to see the ticket taker (others wait outside the theater).
+6)	Each customer randomly chooses whether to visit the concession stand (30% chance to visit it).
+7)	Each customer randomly visiting the concession stand randomly chooses popcorn, soda, or both.
+
+Box Office Agents:
+1)	Two created initially, one thread each.
+2)	Serves next customer in line.
+3)	Maintains count of tickets sold for each movie—does not sell ticket if movie is sold out.
+4)	If movie is sold out, continues getting choices from the customer until an open movie is selected.
+
+Ticket Taker:
+1)	Created initially, one thread.
+2)	Serves next customer in line.
+3)	Takes and tears ticket.
+
+Concession Stand Worker:
+1)	Created initially, one thread.
+2)	Serves next customer in line.
+3)	Gets order from customer.
+4)	Fills order.
+
+Other rules:
+1)	Some actions take time (see table).  The thread should sleep 1 second for each 60 seconds listed in the table.
+2)	All mutual exclusion and coordination must be achieved with semaphores.  A thread may not use sleeping as a means of coordination.  Busy waiting (polling) is not allowed.
+3)	Each thread should print its creation.  A print should occur for each joined customer thread.
+4)	Each thread should do its own activities.  For example, the Ticket Taker should not print something that the Customer should be printing.
+
+Output:
+1)	Each step of each task of each thread should be printed to the screen with identifying numbers so it is clear which threads are involved.
+2)	Thread activity output sample:
+
+Box office agent 0 created
+Customer 1 buying ticket to Toy Story
+Customer 2 buying ticket to Beauty and the Beast
+Box office agent 0 serving customer 1
+Customer 0 buying ticket to Wall-E
+Box office agent 1 created
+Box office agent 1 serving customer 2
+Box office agent 1 sold ticket for Beauty and the Beast to customer 2
+Box office agent 0 sold ticket for Toy Story to customer 1
+Customer 1 in line to see ticket taker
+Customer 2 in line to see ticket taker
+Box office agent 1 serving customer 0
+Ticket taken from customer 1
+Customer 1 enters theater to see Toy Story
+Ticket taken from customer 2
+Customer 2 enters theater to see Beauty and the Beast
+Box office agent 1 sold ticket for Wall-E to customer 0
+Customer 0 in line to see ticket taker
+Ticket taken from customer 0
+Customer 0 in line to buy Popcorn
+Order for Popcorn taken from customer 0
+Popcorn given to customer 0
+Customer 0 receives Popcorn
+Customer 0 enters theater to see Wall-E
+Joined customer 0
+Joined customer 1
+Joined customer 2
+
+
+
+
+     Task Table
+
+Actor	Step	Time (seconds)
+
+Ticket Taker
+	Tear Ticket	15
+
+Concession Stand Worker	Fill Order	180
+
+Box Office Agent	Sell Ticket	90
+
+
+
+ 
+III. Project Guidelines
+
+
+Platform
+
+If using Unix, your project must run correctly on cs1, cs2, or apache.
+If using Windows, your project must run correctly on a machine with more than one CPU or core.
+
+
+Submitting
+
+Submit your project on eLearning.  Include in your submission the following files:
+
+1)	A Word document for the written piece of the project.  (The source code should not be part of this document.)
+
+2)	Source files
+a.	Main file named proj2.c, proj2.cpp, or Proj2.java
+b.	Other files as needed
+c.	All debugging-related code removed
+
+3)	A “readme” file with:
+a)	the complete command line used to compile your program
+b)	the complete command line used to run your program
+c)	any other details the TA should know
+
+
+Academic Honesty
+
+All work must be your own.  Comparison software will be used to compare the work of all students.  Similar work will be reported to the Office of Judicial Affairs for investigation.  They will determine the penalty to be given.
+
+
+Resources
+
+The web has many articles on threads and there are books available on threads.  The course website also contains example source code.
+
