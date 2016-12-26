@@ -10,10 +10,16 @@ public class InitialRun {
 
     static List<Movie> movies = new ArrayList<Movie>();
 
-    static Semaphore cashier = new Semaphore(1);
+    static Semaphore cashier = new Semaphore(2);
     static Semaphore customer = new Semaphore(0);
-    static int customerCount = 10;
+    static int customerCount = 30;
     static Queue<Customer> customerQueue = new LinkedList<Customer>();
+    static long startTime = System.currentTimeMillis();
+    static Semaphore customerQueueLock = new Semaphore(1);
+    static Queue<Customer> auxiliaryCustomerQ = new LinkedList<Customer>();
+    static Queue<Customer> ticketTakerQ = new LinkedList<Customer>();
+    static Semaphore ticketTakerLock = new Semaphore(0);
+    static int entranceQSize = 10;
 
     public static void main(String args[]) throws FileNotFoundException{
 
@@ -23,11 +29,10 @@ public class InitialRun {
             movies.add(new Movie(movieStr[0], Integer.parseInt(movieStr[1])));
         }
 
-        Customer[] customers = new Customer[10];
-        for (int i = 0; i < 10; i++) {
+        Customer[] customers = new Customer[customerCount];
+        for (int i = 0; i < customerCount; i++) {
             customers[i] = new Customer(i);
             customerQueue.offer(customers[i]);
-            (new Thread(customers[i])).start();
         }
 
         Thread cashier1 = new Thread(new Cashier("cashier1"));
@@ -35,7 +40,8 @@ public class InitialRun {
         cashier1.start();
         cashier2.start();
 
-
+        for (int i = 0; i < customerCount; i++)
+            (new Thread(customers[i])).start();
     }
 
     public static class Movie {

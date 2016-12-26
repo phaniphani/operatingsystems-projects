@@ -14,6 +14,15 @@ public class Customer implements Runnable{
 
         try {
             InitialRun.customer.acquire();
+//
+//            InitialRun.ticketTakerLock.acquire();
+//            if (InitialRun.ticketTakerQ.size() < InitialRun.entranceQSize) {
+////                    InitialRun.ticketTakerQ.offer(customer);
+//                } else {
+////                    InitialRun.auxiliaryCustomerQ.offer(customer);
+//                }
+//            InitialRun.ticketTakerLock.release();
+
         } catch (Exception e) {
             System.out.println(e.getMessage());
         }

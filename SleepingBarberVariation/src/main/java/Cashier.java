@@ -14,19 +14,30 @@ public class Cashier implements Runnable{
     public void run() {
         try {
             while (InitialRun.customerCount > 0) {
-                Customer customer = InitialRun.customerQueue.poll();
-                if (customer != null) {
-                    int movieId = (new Random()).nextInt(2);
-                    InitialRun.Movie movie = InitialRun.movies.get(movieId);
                     InitialRun.cashier.acquire();
+                    InitialRun.customerQueueLock.acquire();
+                    Customer customer = InitialRun.customerQueue.poll();
+                    InitialRun.customerQueueLock.release();
                     InitialRun.customerCount--;
-                    customer.setMovie(movie);
+                    if (InitialRun.customerCount >= 0) {
+                        int movieId = (new Random()).nextInt(5);
+                        InitialRun.Movie movie = InitialRun.movies.get(movieId);
+                        while(movie.ticketsLeft == 0){
+                            movieId = (new Random()).nextInt(5);
+                            movie = InitialRun.movies.get(movieId);
+                            System.out.println("Cashier " + cashierName + " is serving customer " + customer.getId());
+                            System.out.println(this.cashierName + " is in the loop ");
+                        }
+                        customer.setMovie(movie);
+                        movie.ticketsLeft = movie.ticketsLeft - 1;
+                        System.out.println("Customer " + customer.getId() + " buys " + customer.getMovie().movieName
+                                + " from cashier " + this.cashierName + " tickets remaining " + movie.ticketsLeft + " customer count "
+                                + InitialRun.customerCount);
+                    }
                     InitialRun.cashier.release();
-                    System.out.println("Customer " + customer.getId() + " buys " + customer.getMovie().movieName
-                    + " from cashier " + this.cashierName);
                     InitialRun.customer.release();
-                }
             }
+            System.out.println("Total time: " + (System.currentTimeMillis() - InitialRun.startTime));
         } catch (Exception e) {
             System.out.println(e.getMessage());
         }
