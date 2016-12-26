@@ -15,7 +15,6 @@ public class Customer implements Runnable{
     static Semaphore ticketTakerLock = new Semaphore(1);
     static int entranceQSize = 10;
     static int totalCustomers = InitialRun.customerCount;
-    static int customerCountAtTicket = 0;
 
     public Customer (int id) {
         this.id = id;

@@ -6,14 +6,16 @@ import java.util.concurrent.Semaphore;
 public class TicketTaker implements Runnable{
 
     public static Semaphore takeTicket = new Semaphore(1);
+    static int customerCountAtTicket = 0;
+
     public void run() {
         try {
-            while(Customer.totalCustomers != Customer.customerCountAtTicket) {
+            while(Customer.totalCustomers != customerCountAtTicket) {
                 takeTicket.acquire();
                 Customer customer = Customer.ticketTakerQ.poll();
                 if (customer != null) {
                     System.out.println("Ticket taker takes ticket from customer " + customer.getId());
-                    Customer.customerCountAtTicket++;
+                    customerCountAtTicket++;
                 }
                 if (Customer.auxiliaryCustomerQ.size() > 0)
                     Customer.ticketTakerQ.offer(Customer.auxiliaryCustomerQ.poll());

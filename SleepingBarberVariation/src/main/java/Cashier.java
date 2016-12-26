@@ -6,7 +6,6 @@ import java.util.concurrent.Semaphore;
  */
 public class Cashier implements Runnable{
 
-    public static Semaphore movieTicketLock = new Semaphore(1);
     static Semaphore cashier = new Semaphore(2);
     static Semaphore customerQueueLock = new Semaphore(1);
     public String cashierName;
@@ -33,11 +32,9 @@ public class Cashier implements Runnable{
                             movie = InitialRun.movies.get(movieId);
                         }
                         customer.setMovie(movie);
-                        movieTicketLock.acquire();
                         movie.ticketsLeft = movie.ticketsLeft - 1;
                         System.out.println("Customer " + customer.getId() + " buys " + customer.getMovie().movieName
                                 + " from Box Office " + this.cashierName);
-                        movieTicketLock.release();
                     }
                     Customer.customer.release();
                     cashier.release();
