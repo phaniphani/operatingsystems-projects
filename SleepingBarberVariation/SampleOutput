@@ -1,0 +1,1206 @@
+//Sample output after running my program.
+Box Office Agent Agent 1 created
+Box Office Agent Agent 2 created
+Box Office Agent 2 is serving customer 1
+Box Office Agent 1 is serving customer 0
+Customer 0 buys Beauty and the Beast from Box Office Agent 1
+Customer 1 buys Beauty and the Beast from Box Office Agent 2
+Customer 0 in line to see ticket taker
+Box Office Agent 1 is serving customer 2
+Ticket taker takes ticket from customer 0
+Customer 1 in line to see ticket taker
+Customer 2 buys 101 Dalmatians from Box Office Agent 1
+Box Office Agent 2 is serving customer 3
+Ticket taker takes ticket from customer 1
+Customer 3 buys Toy Story from Box Office Agent 2
+Customer 2 in line to see ticket taker
+Customer 3 in line to see ticket taker
+Ticket taker takes ticket from customer 2
+Box Office Agent 1 is serving customer 4
+Ticket taker takes ticket from customer 3
+Box Office Agent 2 is serving customer 5
+Customer 4 buys Toy Story from Box Office Agent 1
+Customer 5 buys Toy Story from Box Office Agent 2
+Customer 5 in line to see ticket taker
+Ticket taker takes ticket from customer 5
+Customer 4 in line to see ticket taker
+Box Office Agent 2 is serving customer 6
+Box Office Agent 1 is serving customer 7
+Ticket taker takes ticket from customer 4
+Customer 6 buys Finding Nemo from Box Office Agent 2
+Customer 7 buys Toy Story from Box Office Agent 1
+Customer 6 in line to see ticket taker
+Box Office Agent 2 is serving customer 8
+Customer 7 in line to see ticket taker
+Ticket taker takes ticket from customer 6
+Box Office Agent 1 is serving customer 9
+Customer 8 buys Toy Story from Box Office Agent 2
+Ticket taker takes ticket from customer 7
+Customer 9 buys Beauty and the Beast from Box Office Agent 1
+Customer 8 in line to see ticket taker
+Ticket taker takes ticket from customer 8
+Box Office Agent 2 is serving customer 10
+Customer 9 in line to see ticket taker
+Customer 10 buys 101 Dalmatians from Box Office Agent 2
+Ticket taker takes ticket from customer 9
+Box Office Agent 1 is serving customer 11
+Customer 11 buys Beauty and the Beast from Box Office Agent 1
+Customer 10 in line to see ticket taker
+Ticket taker takes ticket from customer 10
+Box Office Agent 2 is serving customer 12
+Customer 11 in line to see ticket taker
+Customer 12 buys Beauty and the Beast from Box Office Agent 2
+Box Office Agent 1 is serving customer 13
+Ticket taker takes ticket from customer 11
+Customer 13 buys Beauty and the Beast from Box Office Agent 1
+Customer 12 in line to see ticket taker
+Ticket taker takes ticket from customer 12
+Box Office Agent 2 is serving customer 14
+Customer 13 in line to see ticket taker
+Customer 14 buys Toy Story from Box Office Agent 2
+Box Office Agent 1 is serving customer 15
+Customer 15 buys Finding Nemo from Box Office Agent 1
+Ticket taker takes ticket from customer 13
+Customer 14 in line to see ticket taker
+Ticket taker takes ticket from customer 14
+Customer 15 in line to see ticket taker
+Box Office Agent 2 is serving customer 16
+Box Office Agent 1 is serving customer 17
+Ticket taker takes ticket from customer 15
+Customer 16 buys Beauty and the Beast from Box Office Agent 2
+Customer 17 buys Beauty and the Beast from Box Office Agent 1
+Customer 16 in line to see ticket taker
+Box Office Agent 2 is serving customer 18
+Ticket taker takes ticket from customer 16
+Customer 17 in line to see ticket taker
+Customer 18 buys Finding Nemo from Box Office Agent 2
+Ticket taker takes ticket from customer 17
+Box Office Agent 1 is serving customer 19
+Customer 18 in line to see ticket taker
+Customer 19 buys Finding Nemo from Box Office Agent 1
+Ticket taker takes ticket from customer 18
+Box Office Agent 2 is serving customer 20
+Customer 19 in line to see ticket taker
+Customer 20 buys Finding Nemo from Box Office Agent 2
+Ticket taker takes ticket from customer 19
+Box Office Agent 1 is serving customer 21
+Customer 20 in line to see ticket taker
+Customer 21 buys 101 Dalmatians from Box Office Agent 1
+Ticket taker takes ticket from customer 20
+Box Office Agent 2 is serving customer 22
+Customer 21 in line to see ticket taker
+Customer 22 buys Finding Nemo from Box Office Agent 2
+Ticket taker takes ticket from customer 21
+Box Office Agent 1 is serving customer 23
+Customer 22 in line to see ticket taker
+Customer 23 buys Beauty and the Beast from Box Office Agent 1
+Box Office Agent 2 is serving customer 24
+Ticket taker takes ticket from customer 22
+Customer 23 in line to see ticket taker
+Box Office Agent 1 is serving customer 25
+Customer 24 buys Toy Story from Box Office Agent 2
+Ticket taker takes ticket from customer 23
+Customer 25 buys Toy Story from Box Office Agent 1
+Customer 24 in line to see ticket taker
+Ticket taker takes ticket from customer 24
+Customer 25 in line to see ticket taker
+Box Office Agent 2 is serving customer 26
+Box Office Agent 1 is serving customer 27
+Ticket taker takes ticket from customer 25
+Customer 26 buys 101 Dalmatians from Box Office Agent 2
+Customer 27 buys Toy Story from Box Office Agent 1
+Customer 27 in line to see ticket taker
+Ticket taker takes ticket from customer 27
+Box Office Agent 1 is serving customer 28
+Customer 28 buys Toy Story from Box Office Agent 1
+Customer 26 in line to see ticket taker
+Ticket taker takes ticket from customer 26
+Box Office Agent 2 is serving customer 29
+Customer 28 in line to see ticket taker
+Customer 29 buys 101 Dalmatians from Box Office Agent 2
+Ticket taker takes ticket from customer 28
+Box Office Agent 1 is serving customer 30
+Customer 29 in line to see ticket taker
+Customer 30 buys Beauty and the Beast from Box Office Agent 1
+Box Office Agent 2 is serving customer 31
+Ticket taker takes ticket from customer 29
+Customer 31 buys Toy Story from Box Office Agent 2
+Customer 30 in line to see ticket taker
+Box Office Agent 1 is serving customer 32
+Ticket taker takes ticket from customer 30
+Customer 32 buys Alice in Wonderland from Box Office Agent 1
+Customer 32 in line to see ticket taker
+Ticket taker takes ticket from customer 32
+Box Office Agent 1 is serving customer 33
+Customer 31 in line to see ticket taker
+Customer 33 buys Finding Nemo from Box Office Agent 1
+Ticket taker takes ticket from customer 31
+Box Office Agent 2 is serving customer 34
+Customer 33 in line to see ticket taker
+Customer 34 buys Toy Story from Box Office Agent 2
+Box Office Agent 1 is serving customer 35
+Ticket taker takes ticket from customer 33
+Customer 35 buys Alice in Wonderland from Box Office Agent 1
+Customer 34 in line to see ticket taker
+Ticket taker takes ticket from customer 34
+Box Office Agent 2 is serving customer 36
+Customer 35 in line to see ticket taker
+Customer 36 buys 101 Dalmatians from Box Office Agent 2
+Box Office Agent 1 is serving customer 37
+Customer 37 buys Finding Nemo from Box Office Agent 1
+Ticket taker takes ticket from customer 35
+Customer 36 in line to see ticket taker
+Ticket taker takes ticket from customer 36
+Box Office Agent 2 is serving customer 38
+Customer 37 in line to see ticket taker
+Customer 38 buys Toy Story from Box Office Agent 2
+Box Office Agent 1 is serving customer 39
+Customer 39 buys Beauty and the Beast from Box Office Agent 1
+Customer 38 in line to see ticket taker
+Ticket taker takes ticket from customer 37
+Box Office Agent 2 is serving customer 40
+Ticket taker takes ticket from customer 38
+Customer 39 in line to see ticket taker
+Ticket taker takes ticket from customer 39
+Customer 40 buys Finding Nemo from Box Office Agent 2
+Box Office Agent 1 is serving customer 41
+Customer 41 buys Alice in Wonderland from Box Office Agent 1
+Customer 40 in line to see ticket taker
+Ticket taker takes ticket from customer 40
+Customer 41 in line to see ticket taker
+Box Office Agent 2 is serving customer 42
+Ticket taker takes ticket from customer 41
+Box Office Agent 1 is serving customer 43
+Customer 42 buys Beauty and the Beast from Box Office Agent 2
+Customer 43 buys Finding Nemo from Box Office Agent 1
+Customer 42 in line to see ticket taker
+Ticket taker takes ticket from customer 42
+Customer 43 in line to see ticket taker
+Box Office Agent 2 is serving customer 44
+Box Office Agent 1 is serving customer 45
+Ticket taker takes ticket from customer 43
+Customer 44 buys Alice in Wonderland from Box Office Agent 2
+Customer 45 buys Finding Nemo from Box Office Agent 1
+Customer 44 in line to see ticket taker
+Ticket taker takes ticket from customer 44
+Box Office Agent 2 is serving customer 46
+Customer 45 in line to see ticket taker
+Ticket taker takes ticket from customer 45
+Customer 46 buys Alice in Wonderland from Box Office Agent 2
+Customer 46 in line to see ticket taker
+Ticket taker takes ticket from customer 46
+Box Office Agent 1 is serving customer 47
+Customer 47 buys Toy Story from Box Office Agent 1
+Box Office Agent 2 is serving customer 48
+Customer 47 in line to see ticket taker
+Ticket taker takes ticket from customer 47
+Customer 48 buys 101 Dalmatians from Box Office Agent 2
+Box Office Agent 1 is serving customer 49
+Customer 49 buys Toy Story from Box Office Agent 1
+Customer 48 in line to see ticket taker
+Ticket taker takes ticket from customer 48
+Customer 49 in line to see ticket taker
+Box Office Agent 2 is serving customer 50
+Ticket taker takes ticket from customer 49
+Box Office Agent 1 is serving customer 51
+Customer 50 buys Finding Nemo from Box Office Agent 2
+Customer 51 buys Alice in Wonderland from Box Office Agent 1
+Customer 51 in line to see ticket taker
+Customer 50 in line to see ticket taker
+Box Office Agent 1 is serving customer 52
+Ticket taker takes ticket from customer 51
+Box Office Agent 2 is serving customer 53
+Ticket taker takes ticket from customer 50
+Customer 52 buys Beauty and the Beast from Box Office Agent 1
+Customer 53 buys Finding Nemo from Box Office Agent 2
+Customer 52 in line to see ticket taker
+Customer 53 in line to see ticket taker
+Box Office Agent 2 is serving customer 55
+Ticket taker takes ticket from customer 52
+Box Office Agent 1 is serving customer 54
+Ticket taker takes ticket from customer 53
+Customer 55 buys 101 Dalmatians from Box Office Agent 2
+Customer 54 buys Toy Story from Box Office Agent 1
+Customer 54 in line to see ticket taker
+Ticket taker takes ticket from customer 54
+Box Office Agent 1 is serving customer 56
+Customer 56 buys Beauty and the Beast from Box Office Agent 1
+Customer 56 in line to see ticket taker
+Ticket taker takes ticket from customer 56
+Box Office Agent 1 is serving customer 57
+Customer 57 buys Beauty and the Beast from Box Office Agent 1
+Customer 57 in line to see ticket taker
+Ticket taker takes ticket from customer 57
+Customer 55 in line to see ticket taker
+Ticket taker takes ticket from customer 55
+Box Office Agent 1 is serving customer 58
+Box Office Agent 2 is serving customer 59
+Customer 58 buys Toy Story from Box Office Agent 1
+Customer 58 in line to see ticket taker
+Customer 59 buys 101 Dalmatians from Box Office Agent 2
+Box Office Agent 1 is serving customer 60
+Ticket taker takes ticket from customer 58
+Customer 60 buys Finding Nemo from Box Office Agent 1
+Customer 60 in line to see ticket taker
+Ticket taker takes ticket from customer 60
+Box Office Agent 1 is serving customer 61
+Customer 59 in line to see ticket taker
+Customer 61 buys Finding Nemo from Box Office Agent 1
+Ticket taker takes ticket from customer 59
+Box Office Agent 2 is serving customer 62
+Customer 61 in line to see ticket taker
+Customer 62 buys Alice in Wonderland from Box Office Agent 2
+Box Office Agent 1 is serving customer 63
+Ticket taker takes ticket from customer 61
+Customer 63 buys Beauty and the Beast from Box Office Agent 1
+Customer 62 in line to see ticket taker
+Ticket taker takes ticket from customer 62
+Customer 63 in line to see ticket taker
+Box Office Agent 2 is serving customer 64
+Customer 64 buys Alice in Wonderland from Box Office Agent 2
+Ticket taker takes ticket from customer 63
+Box Office Agent 1 is serving customer 65
+Customer 65 buys Beauty and the Beast from Box Office Agent 1
+Customer 64 in line to see ticket taker
+Ticket taker takes ticket from customer 64
+Box Office Agent 2 is serving customer 66
+Customer 65 in line to see ticket taker
+Customer 66 buys Alice in Wonderland from Box Office Agent 2
+Ticket taker takes ticket from customer 65
+Box Office Agent 1 is serving customer 67
+Customer 66 in line to see ticket taker
+Customer 67 buys Alice in Wonderland from Box Office Agent 1
+Box Office Agent 2 is serving customer 68
+Ticket taker takes ticket from customer 66
+Customer 67 in line to see ticket taker
+Ticket taker takes ticket from customer 67
+Customer 68 buys Finding Nemo from Box Office Agent 2
+Box Office Agent 1 is serving customer 69
+Customer 68 in line to see ticket taker
+Customer 69 buys Finding Nemo from Box Office Agent 1
+Ticket taker takes ticket from customer 68
+Box Office Agent 2 is serving customer 70
+Customer 69 in line to see ticket taker
+Customer 70 buys 101 Dalmatians from Box Office Agent 2
+Box Office Agent 1 is serving customer 71
+Ticket taker takes ticket from customer 69
+Customer 71 buys Beauty and the Beast from Box Office Agent 1
+Customer 70 in line to see ticket taker
+Ticket taker takes ticket from customer 70
+Customer 71 in line to see ticket taker
+Box Office Agent 2 is serving customer 72
+Box Office Agent 1 is serving customer 73
+Ticket taker takes ticket from customer 71
+Customer 72 buys Finding Nemo from Box Office Agent 2
+Customer 72 in line to see ticket taker
+Customer 73 buys Toy Story from Box Office Agent 1
+Box Office Agent 2 is serving customer 74
+Ticket taker takes ticket from customer 72
+Customer 74 buys Toy Story from Box Office Agent 2
+Customer 73 in line to see ticket taker
+Ticket taker takes ticket from customer 73
+Box Office Agent 1 is serving customer 75
+Customer 74 in line to see ticket taker
+Customer 75 buys Beauty and the Beast from Box Office Agent 1
+Ticket taker takes ticket from customer 74
+Box Office Agent 2 is serving customer 76
+Customer 75 in line to see ticket taker
+Customer 76 buys Beauty and the Beast from Box Office Agent 2
+Ticket taker takes ticket from customer 75
+Box Office Agent 1 is serving customer 77
+Customer 76 in line to see ticket taker
+Customer 77 buys Finding Nemo from Box Office Agent 1
+Box Office Agent 2 is serving customer 78
+Ticket taker takes ticket from customer 76
+Customer 78 buys Finding Nemo from Box Office Agent 2
+Customer 78 in line to see ticket taker
+Ticket taker takes ticket from customer 78
+Box Office Agent 2 is serving customer 79
+Customer 79 buys Beauty and the Beast from Box Office Agent 2
+Customer 79 in line to see ticket taker
+Ticket taker takes ticket from customer 79
+Customer 77 in line to see ticket taker
+Box Office Agent 2 is serving customer 80
+Box Office Agent 1 is serving customer 81
+Ticket taker takes ticket from customer 77
+Customer 80 buys Toy Story from Box Office Agent 2
+Customer 80 in line to see ticket taker
+Customer 81 buys Beauty and the Beast from Box Office Agent 1
+Box Office Agent 2 is serving customer 82
+Ticket taker takes ticket from customer 80
+Customer 82 buys Beauty and the Beast from Box Office Agent 2
+Customer 81 in line to see ticket taker
+Ticket taker takes ticket from customer 81
+Customer 82 in line to see ticket taker
+Box Office Agent 1 is serving customer 83
+Box Office Agent 2 is serving customer 84
+Ticket taker takes ticket from customer 82
+Customer 83 buys Toy Story from Box Office Agent 1
+Customer 83 in line to see ticket taker
+Customer 84 buys 101 Dalmatians from Box Office Agent 2
+Ticket taker takes ticket from customer 83
+Box Office Agent 1 is serving customer 85
+Customer 84 in line to see ticket taker
+Customer 85 buys Beauty and the Beast from Box Office Agent 1
+Box Office Agent 2 is serving customer 86
+Ticket taker takes ticket from customer 84
+Customer 86 buys Beauty and the Beast from Box Office Agent 2
+Customer 85 in line to see ticket taker
+Ticket taker takes ticket from customer 85
+Customer 86 in line to see ticket taker
+Box Office Agent 1 is serving customer 87
+Ticket taker takes ticket from customer 86
+Box Office Agent 2 is serving customer 88
+Customer 87 buys Alice in Wonderland from Box Office Agent 1
+Customer 88 buys Alice in Wonderland from Box Office Agent 2
+Customer 87 in line to see ticket taker
+Ticket taker takes ticket from customer 87
+Customer 88 in line to see ticket taker
+Box Office Agent 1 is serving customer 89
+Ticket taker takes ticket from customer 88
+Box Office Agent 2 is serving customer 90
+Customer 89 buys Toy Story from Box Office Agent 1
+Customer 90 buys Alice in Wonderland from Box Office Agent 2
+Customer 89 in line to see ticket taker
+Ticket taker takes ticket from customer 89
+Box Office Agent 1 is serving customer 91
+Customer 90 in line to see ticket taker
+Customer 91 buys Toy Story from Box Office Agent 1
+Box Office Agent 2 is serving customer 92
+Ticket taker takes ticket from customer 90
+Customer 92 buys Toy Story from Box Office Agent 2
+Customer 91 in line to see ticket taker
+Box Office Agent 1 is serving customer 93
+Ticket taker takes ticket from customer 91
+Customer 92 in line to see ticket taker
+Customer 93 buys Toy Story from Box Office Agent 1
+Box Office Agent 2 is serving customer 94
+Ticket taker takes ticket from customer 92
+Customer 94 buys Beauty and the Beast from Box Office Agent 2
+Customer 93 in line to see ticket taker
+Ticket taker takes ticket from customer 93
+Customer 94 in line to see ticket taker
+Box Office Agent 1 is serving customer 95
+Ticket taker takes ticket from customer 94
+Box Office Agent 2 is serving customer 96
+Customer 95 buys Alice in Wonderland from Box Office Agent 1
+Customer 95 in line to see ticket taker
+Customer 96 buys Alice in Wonderland from Box Office Agent 2
+Box Office Agent 1 is serving customer 97
+Ticket taker takes ticket from customer 95
+Customer 96 in line to see ticket taker
+Customer 97 buys Toy Story from Box Office Agent 1
+Ticket taker takes ticket from customer 96
+Box Office Agent 2 is serving customer 98
+Customer 97 in line to see ticket taker
+Customer 98 buys 101 Dalmatians from Box Office Agent 2
+Ticket taker takes ticket from customer 97
+Box Office Agent 1 is serving customer 99
+Customer 98 in line to see ticket taker
+Customer 99 buys Alice in Wonderland from Box Office Agent 1
+Ticket taker takes ticket from customer 98
+Box Office Agent 2 is serving customer 100
+Customer 99 in line to see ticket taker
+Customer 100 buys 101 Dalmatians from Box Office Agent 2
+Ticket taker takes ticket from customer 99
+Box Office Agent 1 is serving customer 101
+Customer 100 in line to see ticket taker
+Customer 101 buys Finding Nemo from Box Office Agent 1
+Ticket taker takes ticket from customer 100
+Box Office Agent 2 is serving customer 102
+Customer 101 in line to see ticket taker
+Customer 102 buys Toy Story from Box Office Agent 2
+Box Office Agent 1 is serving customer 103
+Ticket taker takes ticket from customer 101
+Customer 103 buys Toy Story from Box Office Agent 1
+Customer 102 in line to see ticket taker
+Ticket taker takes ticket from customer 102
+Customer 103 in line to see ticket taker
+Box Office Agent 2 is serving customer 104
+Box Office Agent 1 is serving customer 105
+Ticket taker takes ticket from customer 103
+Customer 104 buys Toy Story from Box Office Agent 2
+Customer 104 in line to see ticket taker
+Ticket taker takes ticket from customer 104
+Customer 105 buys Finding Nemo from Box Office Agent 1
+Box Office Agent 2 is serving customer 106
+Customer 105 in line to see ticket taker
+Customer 106 buys Finding Nemo from Box Office Agent 2
+Box Office Agent 1 is serving customer 107
+Ticket taker takes ticket from customer 105
+Customer 107 buys Toy Story from Box Office Agent 1
+Customer 106 in line to see ticket taker
+Ticket taker takes ticket from customer 106
+Box Office Agent 2 is serving customer 108
+Customer 107 in line to see ticket taker
+Customer 108 buys Toy Story from Box Office Agent 2
+Ticket taker takes ticket from customer 107
+Box Office Agent 1 is serving customer 109
+Customer 108 in line to see ticket taker
+Customer 109 buys Alice in Wonderland from Box Office Agent 1
+Box Office Agent 2 is serving customer 110
+Ticket taker takes ticket from customer 108
+Customer 110 buys Finding Nemo from Box Office Agent 2
+Customer 109 in line to see ticket taker
+Ticket taker takes ticket from customer 109
+Box Office Agent 1 is serving customer 111
+Customer 110 in line to see ticket taker
+Customer 111 buys Alice in Wonderland from Box Office Agent 1
+Box Office Agent 2 is serving customer 112
+Ticket taker takes ticket from customer 110
+Customer 112 buys 101 Dalmatians from Box Office Agent 2
+Customer 111 in line to see ticket taker
+Ticket taker takes ticket from customer 111
+Customer 112 in line to see ticket taker
+Box Office Agent 1 is serving customer 113
+Box Office Agent 2 is serving customer 114
+Ticket taker takes ticket from customer 112
+Customer 113 buys Alice in Wonderland from Box Office Agent 1
+Customer 113 in line to see ticket taker
+Customer 114 buys Toy Story from Box Office Agent 2
+Box Office Agent 1 is serving customer 115
+Ticket taker takes ticket from customer 113
+Customer 115 buys Toy Story from Box Office Agent 1
+Customer 114 in line to see ticket taker
+Ticket taker takes ticket from customer 114
+Box Office Agent 2 is serving customer 116
+Customer 115 in line to see ticket taker
+Customer 116 buys 101 Dalmatians from Box Office Agent 2
+Box Office Agent 1 is serving customer 117
+Ticket taker takes ticket from customer 115
+Customer 117 buys Alice in Wonderland from Box Office Agent 1
+Customer 116 in line to see ticket taker
+Ticket taker takes ticket from customer 116
+Customer 117 in line to see ticket taker
+Box Office Agent 2 is serving customer 118
+Ticket taker takes ticket from customer 117
+Box Office Agent 1 is serving customer 119
+Customer 118 buys Alice in Wonderland from Box Office Agent 2
+Customer 118 in line to see ticket taker
+Customer 119 buys Toy Story from Box Office Agent 1
+Box Office Agent 2 is serving customer 120
+Ticket taker takes ticket from customer 118
+Customer 120 buys Finding Nemo from Box Office Agent 2
+Customer 119 in line to see ticket taker
+Ticket taker takes ticket from customer 119
+Box Office Agent 1 is serving customer 121
+Customer 120 in line to see ticket taker
+Customer 121 buys Toy Story from Box Office Agent 1
+Box Office Agent 2 is serving customer 122
+Ticket taker takes ticket from customer 120
+Customer 122 buys Toy Story from Box Office Agent 2
+Customer 121 in line to see ticket taker
+Ticket taker takes ticket from customer 121
+Customer 122 in line to see ticket taker
+Box Office Agent 1 is serving customer 123
+Ticket taker takes ticket from customer 122
+Box Office Agent 2 is serving customer 124
+Customer 123 buys Finding Nemo from Box Office Agent 1
+Customer 123 in line to see ticket taker
+Customer 124 buys Toy Story from Box Office Agent 2
+Box Office Agent 1 is serving customer 125
+Ticket taker takes ticket from customer 123
+Customer 124 in line to see ticket taker
+Customer 125 buys Finding Nemo from Box Office Agent 1
+Box Office Agent 2 is serving customer 126
+Ticket taker takes ticket from customer 124
+Customer 126 buys Toy Story from Box Office Agent 2
+Customer 125 in line to see ticket taker
+Ticket taker takes ticket from customer 125
+Box Office Agent 1 is serving customer 127
+Customer 126 in line to see ticket taker
+Customer 127 buys Finding Nemo from Box Office Agent 1
+Box Office Agent 2 is serving customer 128
+Ticket taker takes ticket from customer 126
+Customer 128 buys Finding Nemo from Box Office Agent 2
+Customer 127 in line to see ticket taker
+Ticket taker takes ticket from customer 127
+Box Office Agent 1 is serving customer 129
+Customer 128 in line to see ticket taker
+Customer 129 buys Toy Story from Box Office Agent 1
+Box Office Agent 2 is serving customer 130
+Customer 130 buys Alice in Wonderland from Box Office Agent 2
+Ticket taker takes ticket from customer 128
+Customer 129 in line to see ticket taker
+Ticket taker takes ticket from customer 129
+Customer 130 in line to see ticket taker
+Box Office Agent 1 is serving customer 131
+Box Office Agent 2 is serving customer 132
+Ticket taker takes ticket from customer 130
+Customer 131 buys Toy Story from Box Office Agent 1
+Customer 131 in line to see ticket taker
+Customer 132 buys Toy Story from Box Office Agent 2
+Ticket taker takes ticket from customer 131
+Box Office Agent 1 is serving customer 133
+Customer 132 in line to see ticket taker
+Customer 133 buys Beauty and the Beast from Box Office Agent 1
+Ticket taker takes ticket from customer 132
+Box Office Agent 2 is serving customer 134
+Customer 133 in line to see ticket taker
+Customer 134 buys Alice in Wonderland from Box Office Agent 2
+Box Office Agent 1 is serving customer 135
+Ticket taker takes ticket from customer 133
+Customer 135 buys Toy Story from Box Office Agent 1
+Customer 134 in line to see ticket taker
+Ticket taker takes ticket from customer 134
+Box Office Agent 2 is serving customer 136
+Customer 135 in line to see ticket taker
+Customer 136 buys Toy Story from Box Office Agent 2
+Box Office Agent 1 is serving customer 137
+Ticket taker takes ticket from customer 135
+Customer 137 buys Beauty and the Beast from Box Office Agent 1
+Customer 136 in line to see ticket taker
+Ticket taker takes ticket from customer 136
+Customer 137 in line to see ticket taker
+Box Office Agent 2 is serving customer 138
+Ticket taker takes ticket from customer 137
+Box Office Agent 1 is serving customer 139
+Customer 138 buys 101 Dalmatians from Box Office Agent 2
+Customer 138 in line to see ticket taker
+Customer 139 buys Beauty and the Beast from Box Office Agent 1
+Box Office Agent 2 is serving customer 140
+Ticket taker takes ticket from customer 138
+Customer 140 buys 101 Dalmatians from Box Office Agent 2
+Customer 139 in line to see ticket taker
+Ticket taker takes ticket from customer 139
+Customer 140 in line to see ticket taker
+Box Office Agent 1 is serving customer 141
+Ticket taker takes ticket from customer 140
+Box Office Agent 2 is serving customer 142
+Customer 141 buys Alice in Wonderland from Box Office Agent 1
+Customer 141 in line to see ticket taker
+Customer 142 buys Toy Story from Box Office Agent 2
+Box Office Agent 1 is serving customer 143
+Ticket taker takes ticket from customer 141
+Customer 143 buys 101 Dalmatians from Box Office Agent 1
+Customer 142 in line to see ticket taker
+Ticket taker takes ticket from customer 142
+Customer 143 in line to see ticket taker
+Box Office Agent 2 is serving customer 144
+Ticket taker takes ticket from customer 143
+Box Office Agent 1 is serving customer 145
+Customer 144 buys Finding Nemo from Box Office Agent 2
+Customer 144 in line to see ticket taker
+Customer 145 buys Alice in Wonderland from Box Office Agent 1
+Box Office Agent 2 is serving customer 146
+Ticket taker takes ticket from customer 144
+Customer 146 buys Finding Nemo from Box Office Agent 2
+Customer 145 in line to see ticket taker
+Ticket taker takes ticket from customer 145
+Box Office Agent 1 is serving customer 147
+Customer 146 in line to see ticket taker
+Customer 147 buys Finding Nemo from Box Office Agent 1
+Box Office Agent 2 is serving customer 148
+Ticket taker takes ticket from customer 146
+Customer 148 buys Toy Story from Box Office Agent 2
+Customer 147 in line to see ticket taker
+Ticket taker takes ticket from customer 147
+Customer 148 in line to see ticket taker
+Box Office Agent 1 is serving customer 149
+Ticket taker takes ticket from customer 148
+Box Office Agent 2 is serving customer 150
+Customer 149 buys 101 Dalmatians from Box Office Agent 1
+Customer 149 in line to see ticket taker
+Customer 150 buys Beauty and the Beast from Box Office Agent 2
+Box Office Agent 1 is serving customer 151
+Ticket taker takes ticket from customer 149
+Customer 151 buys 101 Dalmatians from Box Office Agent 1
+Customer 150 in line to see ticket taker
+Ticket taker takes ticket from customer 150
+Customer 151 in line to see ticket taker
+Box Office Agent 2 is serving customer 152
+Ticket taker takes ticket from customer 151
+Box Office Agent 1 is serving customer 153
+Customer 152 buys 101 Dalmatians from Box Office Agent 2
+Customer 152 in line to see ticket taker
+Customer 153 buys Finding Nemo from Box Office Agent 1
+Ticket taker takes ticket from customer 152
+Box Office Agent 2 is serving customer 154
+Customer 153 in line to see ticket taker
+Customer 154 buys Toy Story from Box Office Agent 2
+Box Office Agent 1 is serving customer 155
+Ticket taker takes ticket from customer 153
+Customer 155 buys 101 Dalmatians from Box Office Agent 1
+Customer 154 in line to see ticket taker
+Ticket taker takes ticket from customer 154
+Box Office Agent 2 is serving customer 156
+Customer 155 in line to see ticket taker
+Customer 156 buys 101 Dalmatians from Box Office Agent 2
+Box Office Agent 1 is serving customer 157
+Ticket taker takes ticket from customer 155
+Customer 157 buys Toy Story from Box Office Agent 1
+Customer 156 in line to see ticket taker
+Ticket taker takes ticket from customer 156
+Customer 157 in line to see ticket taker
+Box Office Agent 2 is serving customer 158
+Box Office Agent 1 is serving customer 159
+Ticket taker takes ticket from customer 157
+Customer 158 buys Alice in Wonderland from Box Office Agent 2
+Customer 158 in line to see ticket taker
+Customer 159 buys Beauty and the Beast from Box Office Agent 1
+Ticket taker takes ticket from customer 158
+Box Office Agent 2 is serving customer 160
+Customer 159 in line to see ticket taker
+Customer 160 buys Beauty and the Beast from Box Office Agent 2
+Box Office Agent 1 is serving customer 161
+Ticket taker takes ticket from customer 159
+Customer 161 buys 101 Dalmatians from Box Office Agent 1
+Customer 160 in line to see ticket taker
+Ticket taker takes ticket from customer 160
+Customer 161 in line to see ticket taker
+Box Office Agent 2 is serving customer 162
+Box Office Agent 1 is serving customer 163
+Ticket taker takes ticket from customer 161
+Customer 162 buys Finding Nemo from Box Office Agent 2
+Customer 162 in line to see ticket taker
+Customer 163 buys Toy Story from Box Office Agent 1
+Box Office Agent 2 is serving customer 164
+Ticket taker takes ticket from customer 162
+Customer 164 buys Finding Nemo from Box Office Agent 2
+Customer 163 in line to see ticket taker
+Ticket taker takes ticket from customer 163
+Box Office Agent 1 is serving customer 165
+Customer 164 in line to see ticket taker
+Customer 165 buys 101 Dalmatians from Box Office Agent 1
+Box Office Agent 2 is serving customer 166
+Ticket taker takes ticket from customer 164
+Customer 166 buys Beauty and the Beast from Box Office Agent 2
+Customer 165 in line to see ticket taker
+Ticket taker takes ticket from customer 165
+Box Office Agent 1 is serving customer 167
+Customer 166 in line to see ticket taker
+Customer 167 buys Toy Story from Box Office Agent 1
+Box Office Agent 2 is serving customer 168
+Ticket taker takes ticket from customer 166
+Customer 168 buys Toy Story from Box Office Agent 2
+Customer 167 in line to see ticket taker
+Ticket taker takes ticket from customer 167
+Customer 168 in line to see ticket taker
+Box Office Agent 1 is serving customer 169
+Ticket taker takes ticket from customer 168
+Box Office Agent 2 is serving customer 170
+Customer 169 buys Beauty and the Beast from Box Office Agent 1
+Customer 169 in line to see ticket taker
+Customer 170 buys Finding Nemo from Box Office Agent 2
+Box Office Agent 1 is serving customer 171
+Ticket taker takes ticket from customer 169
+Customer 171 buys Beauty and the Beast from Box Office Agent 1
+Customer 170 in line to see ticket taker
+Ticket taker takes ticket from customer 170
+Customer 171 in line to see ticket taker
+Box Office Agent 2 is serving customer 172
+Box Office Agent 1 is serving customer 173
+Ticket taker takes ticket from customer 171
+Customer 172 buys Finding Nemo from Box Office Agent 2
+Customer 172 in line to see ticket taker
+Customer 173 buys Finding Nemo from Box Office Agent 1
+Box Office Agent 2 is serving customer 174
+Ticket taker takes ticket from customer 172
+Customer 174 buys 101 Dalmatians from Box Office Agent 2
+Customer 173 in line to see ticket taker
+Ticket taker takes ticket from customer 173
+Customer 174 in line to see ticket taker
+Box Office Agent 1 is serving customer 175
+Box Office Agent 2 is serving customer 176
+Ticket taker takes ticket from customer 174
+Customer 175 buys 101 Dalmatians from Box Office Agent 1
+Customer 175 in line to see ticket taker
+Customer 176 buys 101 Dalmatians from Box Office Agent 2
+Ticket taker takes ticket from customer 175
+Box Office Agent 1 is serving customer 177
+Customer 176 in line to see ticket taker
+Customer 177 buys 101 Dalmatians from Box Office Agent 1
+Box Office Agent 2 is serving customer 178
+Ticket taker takes ticket from customer 176
+Customer 178 buys Beauty and the Beast from Box Office Agent 2
+Customer 177 in line to see ticket taker
+Ticket taker takes ticket from customer 177
+Customer 178 in line to see ticket taker
+Box Office Agent 1 is serving customer 179
+Ticket taker takes ticket from customer 178
+Box Office Agent 2 is serving customer 180
+Customer 179 buys 101 Dalmatians from Box Office Agent 1
+Customer 179 in line to see ticket taker
+Customer 180 buys 101 Dalmatians from Box Office Agent 2
+Box Office Agent 1 is serving customer 181
+Ticket taker takes ticket from customer 179
+Customer 181 buys 101 Dalmatians from Box Office Agent 1
+Customer 180 in line to see ticket taker
+Ticket taker takes ticket from customer 180
+Box Office Agent 2 is serving customer 182
+Customer 181 in line to see ticket taker
+Customer 182 buys Alice in Wonderland from Box Office Agent 2
+Ticket taker takes ticket from customer 181
+Box Office Agent 1 is serving customer 183
+Customer 182 in line to see ticket taker
+Customer 183 buys 101 Dalmatians from Box Office Agent 1
+Ticket taker takes ticket from customer 182
+Box Office Agent 2 is serving customer 184
+Customer 183 in line to see ticket taker
+Customer 184 buys Beauty and the Beast from Box Office Agent 2
+Box Office Agent 1 is serving customer 185
+Ticket taker takes ticket from customer 183
+Customer 185 buys Alice in Wonderland from Box Office Agent 1
+Customer 184 in line to see ticket taker
+Ticket taker takes ticket from customer 184
+Customer 185 in line to see ticket taker
+Box Office Agent 2 is serving customer 186
+Box Office Agent 1 is serving customer 187
+Ticket taker takes ticket from customer 185
+Customer 186 buys 101 Dalmatians from Box Office Agent 2
+Customer 186 in line to see ticket taker
+Customer 187 buys Beauty and the Beast from Box Office Agent 1
+Box Office Agent 2 is serving customer 188
+Ticket taker takes ticket from customer 186
+Customer 188 buys Beauty and the Beast from Box Office Agent 2
+Customer 187 in line to see ticket taker
+Ticket taker takes ticket from customer 187
+Customer 188 in line to see ticket taker
+Box Office Agent 1 is serving customer 189
+Box Office Agent 2 is serving customer 190
+Ticket taker takes ticket from customer 188
+Customer 189 buys 101 Dalmatians from Box Office Agent 1
+Customer 189 in line to see ticket taker
+Customer 190 buys Beauty and the Beast from Box Office Agent 2
+Ticket taker takes ticket from customer 189
+Box Office Agent 1 is serving customer 191
+Customer 190 in line to see ticket taker
+Customer 191 buys Beauty and the Beast from Box Office Agent 1
+Box Office Agent 2 is serving customer 192
+Ticket taker takes ticket from customer 190
+Customer 192 buys Alice in Wonderland from Box Office Agent 2
+Customer 191 in line to see ticket taker
+Ticket taker takes ticket from customer 191
+Customer 192 in line to see ticket taker
+Box Office Agent 1 is serving customer 193
+Ticket taker takes ticket from customer 192
+Box Office Agent 2 is serving customer 194
+Customer 193 buys Finding Nemo from Box Office Agent 1
+Customer 193 in line to see ticket taker
+Customer 194 buys 101 Dalmatians from Box Office Agent 2
+Box Office Agent 1 is serving customer 195
+Ticket taker takes ticket from customer 193
+Customer 195 buys Alice in Wonderland from Box Office Agent 1
+Customer 194 in line to see ticket taker
+Ticket taker takes ticket from customer 194
+Box Office Agent 2 is serving customer 196
+Customer 195 in line to see ticket taker
+Customer 196 buys 101 Dalmatians from Box Office Agent 2
+Ticket taker takes ticket from customer 195
+Box Office Agent 1 is serving customer 197
+Customer 196 in line to see ticket taker
+Customer 197 buys Beauty and the Beast from Box Office Agent 1
+Ticket taker takes ticket from customer 196
+Box Office Agent 2 is serving customer 198
+Customer 197 in line to see ticket taker
+Customer 198 buys 101 Dalmatians from Box Office Agent 2
+Ticket taker takes ticket from customer 197
+Box Office Agent 1 is serving customer 199
+Customer 198 in line to see ticket taker
+Customer 199 buys 101 Dalmatians from Box Office Agent 1
+Box Office Agent 2 is serving customer 200
+Ticket taker takes ticket from customer 198
+Customer 200 buys 101 Dalmatians from Box Office Agent 2
+Customer 199 in line to see ticket taker
+Ticket taker takes ticket from customer 199
+Box Office Agent 1 is serving customer 201
+Customer 200 in line to see ticket taker
+Customer 201 buys 101 Dalmatians from Box Office Agent 1
+Box Office Agent 2 is serving customer 202
+Ticket taker takes ticket from customer 200
+Customer 202 buys Alice in Wonderland from Box Office Agent 2
+Customer 201 in line to see ticket taker
+Ticket taker takes ticket from customer 201
+Customer 202 in line to see ticket taker
+Box Office Agent 1 is serving customer 203
+Ticket taker takes ticket from customer 202
+Box Office Agent 2 is serving customer 204
+Customer 203 buys Alice in Wonderland from Box Office Agent 1
+Customer 203 in line to see ticket taker
+Customer 204 buys 101 Dalmatians from Box Office Agent 2
+Box Office Agent 1 is serving customer 205
+Ticket taker takes ticket from customer 203
+Customer 205 buys 101 Dalmatians from Box Office Agent 1
+Customer 204 in line to see ticket taker
+Ticket taker takes ticket from customer 204
+Customer 205 in line to see ticket taker
+Box Office Agent 2 is serving customer 206
+Ticket taker takes ticket from customer 205
+Box Office Agent 1 is serving customer 207
+Customer 206 buys 101 Dalmatians from Box Office Agent 2
+Customer 206 in line to see ticket taker
+Customer 207 buys Alice in Wonderland from Box Office Agent 1
+Ticket taker takes ticket from customer 206
+Box Office Agent 2 is serving customer 208
+Customer 207 in line to see ticket taker
+Customer 208 buys Beauty and the Beast from Box Office Agent 2
+Ticket taker takes ticket from customer 207
+Box Office Agent 1 is serving customer 209
+Customer 208 in line to see ticket taker
+Customer 209 buys Alice in Wonderland from Box Office Agent 1
+Box Office Agent 2 is serving customer 210
+Ticket taker takes ticket from customer 208
+Customer 210 buys Beauty and the Beast from Box Office Agent 2
+Customer 209 in line to see ticket taker
+Ticket taker takes ticket from customer 209
+Customer 210 in line to see ticket taker
+Box Office Agent 1 is serving customer 211
+Ticket taker takes ticket from customer 210
+Box Office Agent 2 is serving customer 212
+Customer 211 buys Finding Nemo from Box Office Agent 1
+Customer 211 in line to see ticket taker
+Customer 212 buys Beauty and the Beast from Box Office Agent 2
+Box Office Agent 1 is serving customer 213
+Ticket taker takes ticket from customer 211
+Customer 213 buys Beauty and the Beast from Box Office Agent 1
+Customer 212 in line to see ticket taker
+Ticket taker takes ticket from customer 212
+Box Office Agent 2 is serving customer 214
+Customer 213 in line to see ticket taker
+Customer 214 buys 101 Dalmatians from Box Office Agent 2
+Box Office Agent 1 is serving customer 215
+Ticket taker takes ticket from customer 213
+Customer 215 buys Alice in Wonderland from Box Office Agent 1
+Customer 214 in line to see ticket taker
+Ticket taker takes ticket from customer 214
+Box Office Agent 2 is serving customer 216
+Customer 215 in line to see ticket taker
+Customer 216 buys 101 Dalmatians from Box Office Agent 2
+Box Office Agent 1 is serving customer 217
+Ticket taker takes ticket from customer 215
+Customer 217 buys 101 Dalmatians from Box Office Agent 1
+Customer 216 in line to see ticket taker
+Ticket taker takes ticket from customer 216
+Box Office Agent 2 is serving customer 218
+Customer 217 in line to see ticket taker
+Customer 218 buys Beauty and the Beast from Box Office Agent 2
+Box Office Agent 1 is serving customer 219
+Ticket taker takes ticket from customer 217
+Customer 219 buys Finding Nemo from Box Office Agent 1
+Customer 218 in line to see ticket taker
+Ticket taker takes ticket from customer 218
+Box Office Agent 2 is serving customer 220
+Customer 219 in line to see ticket taker
+Customer 220 buys Alice in Wonderland from Box Office Agent 2
+Box Office Agent 1 is serving customer 221
+Ticket taker takes ticket from customer 219
+Customer 221 buys Alice in Wonderland from Box Office Agent 1
+Customer 220 in line to see ticket taker
+Ticket taker takes ticket from customer 220
+Box Office Agent 2 is serving customer 222
+Customer 221 in line to see ticket taker
+Customer 222 buys Beauty and the Beast from Box Office Agent 2
+Box Office Agent 1 is serving customer 223
+Ticket taker takes ticket from customer 221
+Customer 223 buys Beauty and the Beast from Box Office Agent 1
+Customer 222 in line to see ticket taker
+Ticket taker takes ticket from customer 222
+Box Office Agent 2 is serving customer 224
+Customer 223 in line to see ticket taker
+Customer 224 buys Beauty and the Beast from Box Office Agent 2
+Box Office Agent 1 is serving customer 225
+Ticket taker takes ticket from customer 223
+Customer 225 buys Finding Nemo from Box Office Agent 1
+Customer 224 in line to see ticket taker
+Ticket taker takes ticket from customer 224
+Box Office Agent 2 is serving customer 226
+Customer 225 in line to see ticket taker
+Customer 226 buys Alice in Wonderland from Box Office Agent 2
+Box Office Agent 1 is serving customer 227
+Ticket taker takes ticket from customer 225
+Customer 227 buys Alice in Wonderland from Box Office Agent 1
+Customer 226 in line to see ticket taker
+Ticket taker takes ticket from customer 226
+Customer 227 in line to see ticket taker
+Box Office Agent 2 is serving customer 228
+Ticket taker takes ticket from customer 227
+Box Office Agent 1 is serving customer 229
+Customer 228 buys Finding Nemo from Box Office Agent 2
+Customer 228 in line to see ticket taker
+Customer 229 buys 101 Dalmatians from Box Office Agent 1
+Box Office Agent 2 is serving customer 230
+Ticket taker takes ticket from customer 228
+Customer 230 buys Alice in Wonderland from Box Office Agent 2
+Customer 229 in line to see ticket taker
+Ticket taker takes ticket from customer 229
+Box Office Agent 1 is serving customer 231
+Customer 230 in line to see ticket taker
+Customer 231 buys Alice in Wonderland from Box Office Agent 1
+Box Office Agent 2 is serving customer 232
+Ticket taker takes ticket from customer 230
+Customer 232 buys Finding Nemo from Box Office Agent 2
+Customer 231 in line to see ticket taker
+Ticket taker takes ticket from customer 231
+Box Office Agent 1 is serving customer 233
+Customer 232 in line to see ticket taker
+Customer 233 buys 101 Dalmatians from Box Office Agent 1
+Box Office Agent 2 is serving customer 234
+Ticket taker takes ticket from customer 232
+Customer 234 buys 101 Dalmatians from Box Office Agent 2
+Customer 233 in line to see ticket taker
+Ticket taker takes ticket from customer 233
+Customer 234 in line to see ticket taker
+Box Office Agent 1 is serving customer 235
+Box Office Agent 2 is serving customer 236
+Ticket taker takes ticket from customer 234
+Customer 235 buys Alice in Wonderland from Box Office Agent 1
+Customer 235 in line to see ticket taker
+Customer 236 buys Finding Nemo from Box Office Agent 2
+Ticket taker takes ticket from customer 235
+Box Office Agent 1 is serving customer 237
+Customer 236 in line to see ticket taker
+Customer 237 buys Finding Nemo from Box Office Agent 1
+Ticket taker takes ticket from customer 236
+Box Office Agent 2 is serving customer 238
+Customer 237 in line to see ticket taker
+Customer 238 buys Alice in Wonderland from Box Office Agent 2
+Box Office Agent 1 is serving customer 239
+Ticket taker takes ticket from customer 237
+Customer 239 buys Alice in Wonderland from Box Office Agent 1
+Customer 238 in line to see ticket taker
+Ticket taker takes ticket from customer 238
+Customer 239 in line to see ticket taker
+Box Office Agent 2 is serving customer 240
+Ticket taker takes ticket from customer 239
+Box Office Agent 1 is serving customer 241
+Customer 240 buys Finding Nemo from Box Office Agent 2
+Customer 240 in line to see ticket taker
+Customer 241 buys Alice in Wonderland from Box Office Agent 1
+Box Office Agent 2 is serving customer 242
+Ticket taker takes ticket from customer 240
+Customer 242 buys Finding Nemo from Box Office Agent 2
+Customer 241 in line to see ticket taker
+Ticket taker takes ticket from customer 241
+Customer 242 in line to see ticket taker
+Box Office Agent 1 is serving customer 243
+Box Office Agent 2 is serving customer 244
+Ticket taker takes ticket from customer 242
+Customer 243 buys Finding Nemo from Box Office Agent 1
+Customer 243 in line to see ticket taker
+Customer 244 buys Finding Nemo from Box Office Agent 2
+Box Office Agent 1 is serving customer 245
+Ticket taker takes ticket from customer 243
+Customer 245 buys Finding Nemo from Box Office Agent 1
+Customer 244 in line to see ticket taker
+Ticket taker takes ticket from customer 244
+Box Office Agent 2 is serving customer 246
+Customer 245 in line to see ticket taker
+Customer 246 buys Alice in Wonderland from Box Office Agent 2
+Ticket taker takes ticket from customer 245
+Box Office Agent 1 is serving customer 247
+Customer 246 in line to see ticket taker
+Customer 247 buys Finding Nemo from Box Office Agent 1
+Box Office Agent 2 is serving customer 248
+Ticket taker takes ticket from customer 246
+Customer 248 buys Finding Nemo from Box Office Agent 2
+Customer 247 in line to see ticket taker
+Box Office Agent 1 is serving customer 249
+Customer 248 in line to see ticket taker
+Ticket taker takes ticket from customer 247
+Box Office Agent 2 is serving customer 250
+Customer 249 buys Alice in Wonderland from Box Office Agent 1
+Ticket taker takes ticket from customer 248
+Customer 250 buys Finding Nemo from Box Office Agent 2
+Customer 249 in line to see ticket taker
+Ticket taker takes ticket from customer 249
+Box Office Agent 1 is serving customer 251
+Customer 250 in line to see ticket taker
+Customer 251 buys Finding Nemo from Box Office Agent 1
+Box Office Agent 2 is serving customer 252
+Ticket taker takes ticket from customer 250
+Customer 252 buys Finding Nemo from Box Office Agent 2
+Customer 251 in line to see ticket taker
+Ticket taker takes ticket from customer 251
+Box Office Agent 1 is serving customer 253
+Customer 252 in line to see ticket taker
+Customer 253 buys Alice in Wonderland from Box Office Agent 1
+Box Office Agent 2 is serving customer 254
+Ticket taker takes ticket from customer 252
+Customer 254 buys Alice in Wonderland from Box Office Agent 2
+Customer 253 in line to see ticket taker
+Ticket taker takes ticket from customer 253
+Box Office Agent 1 is serving customer 255
+Customer 254 in line to see ticket taker
+Customer 255 buys Finding Nemo from Box Office Agent 1
+Box Office Agent 2 is serving customer 256
+Ticket taker takes ticket from customer 254
+Customer 256 buys Finding Nemo from Box Office Agent 2
+Customer 255 in line to see ticket taker
+Ticket taker takes ticket from customer 255
+Box Office Agent 1 is serving customer 257
+Customer 256 in line to see ticket taker
+Customer 257 buys Alice in Wonderland from Box Office Agent 1
+Box Office Agent 2 is serving customer 258
+Ticket taker takes ticket from customer 256
+Customer 258 buys Finding Nemo from Box Office Agent 2
+Customer 257 in line to see ticket taker
+Box Office Agent 1 is serving customer 259
+Ticket taker takes ticket from customer 257
+Customer 258 in line to see ticket taker
+Customer 259 buys Finding Nemo from Box Office Agent 1
+Box Office Agent 2 is serving customer 260
+Ticket taker takes ticket from customer 258
+Customer 260 buys Finding Nemo from Box Office Agent 2
+Customer 259 in line to see ticket taker
+Ticket taker takes ticket from customer 259
+Customer 260 in line to see ticket taker
+Box Office Agent 1 is serving customer 261
+Box Office Agent 2 is serving customer 262
+Ticket taker takes ticket from customer 260
+Customer 261 buys Finding Nemo from Box Office Agent 1
+Customer 261 in line to see ticket taker
+Customer 262 buys Finding Nemo from Box Office Agent 2
+Box Office Agent 1 is serving customer 263
+Ticket taker takes ticket from customer 261
+Customer 263 buys Finding Nemo from Box Office Agent 1
+Customer 262 in line to see ticket taker
+Ticket taker takes ticket from customer 262
+Customer 263 in line to see ticket taker
+Box Office Agent 2 is serving customer 264
+Box Office Agent 1 is serving customer 265
+Ticket taker takes ticket from customer 263
+Customer 264 buys Finding Nemo from Box Office Agent 2
+Customer 264 in line to see ticket taker
+Customer 265 buys Finding Nemo from Box Office Agent 1
+Ticket taker takes ticket from customer 264
+Box Office Agent 2 is serving customer 266
+Customer 265 in line to see ticket taker
+Customer 266 buys Finding Nemo from Box Office Agent 2
+Box Office Agent 1 is serving customer 267
+Ticket taker takes ticket from customer 265
+Customer 267 buys Finding Nemo from Box Office Agent 1
+Customer 266 in line to see ticket taker
+Ticket taker takes ticket from customer 266
+Customer 267 in line to see ticket taker
+Box Office Agent 2 is serving customer 268
+Ticket taker takes ticket from customer 267
+Box Office Agent 1 is serving customer 269
+Customer 268 buys Finding Nemo from Box Office Agent 2
+Customer 268 in line to see ticket taker
+Customer 269 buys Finding Nemo from Box Office Agent 1
+Box Office Agent 2 is serving customer 270
+Ticket taker takes ticket from customer 268
+Customer 269 in line to see ticket taker
+Customer 270 buys Finding Nemo from Box Office Agent 2
+Box Office Agent 1 is serving customer 271
+Ticket taker takes ticket from customer 269
+Customer 271 buys Finding Nemo from Box Office Agent 1
+Customer 270 in line to see ticket taker
+Ticket taker takes ticket from customer 270
+Box Office Agent 2 is serving customer 272
+Customer 271 in line to see ticket taker
+Customer 272 buys Finding Nemo from Box Office Agent 2
+Box Office Agent 1 is serving customer 273
+Ticket taker takes ticket from customer 271
+Customer 272 in line to see ticket taker
+Customer 273 buys Finding Nemo from Box Office Agent 1
+Box Office Agent 2 is serving customer 274
+Ticket taker takes ticket from customer 272
+Customer 274 buys Finding Nemo from Box Office Agent 2
+Customer 273 in line to see ticket taker
+Ticket taker takes ticket from customer 273
+Customer 274 in line to see ticket taker
+Box Office Agent 1 is serving customer 275
+Box Office Agent 2 is serving customer 276
+Ticket taker takes ticket from customer 274
+Customer 275 buys Finding Nemo from Box Office Agent 1
+Customer 275 in line to see ticket taker
+Customer 276 buys Finding Nemo from Box Office Agent 2
+Box Office Agent 1 is serving customer 277
+Ticket taker takes ticket from customer 275
+Customer 277 buys Finding Nemo from Box Office Agent 1
+Customer 276 in line to see ticket taker
+Ticket taker takes ticket from customer 276
+Customer 277 in line to see ticket taker
+Box Office Agent 2 is serving customer 278
+Box Office Agent 1 is serving customer 279
+Ticket taker takes ticket from customer 277
+Customer 278 buys Finding Nemo from Box Office Agent 2
+Customer 278 in line to see ticket taker
+Customer 279 buys Finding Nemo from Box Office Agent 1
+Ticket taker takes ticket from customer 278
+Box Office Agent 2 is serving customer 280
+Customer 279 in line to see ticket taker
+Customer 280 buys Finding Nemo from Box Office Agent 2
+Box Office Agent 1 is serving customer 281
+Ticket taker takes ticket from customer 279
+Customer 281 buys Finding Nemo from Box Office Agent 1
+Customer 280 in line to see ticket taker
+Ticket taker takes ticket from customer 280
+Box Office Agent 2 is serving customer 282
+Customer 281 in line to see ticket taker
+Ticket taker takes ticket from customer 281
+Box Office Agent 1 is serving customer 283
+Customer 282 buys Finding Nemo from Box Office Agent 2
+Customer 282 in line to see ticket taker
+Customer 283 buys Finding Nemo from Box Office Agent 1
+Box Office Agent 2 is serving customer 284
+Ticket taker takes ticket from customer 282
+Customer 284 buys Finding Nemo from Box Office Agent 2
+Customer 283 in line to see ticket taker
+Ticket taker takes ticket from customer 283
+Box Office Agent 1 is serving customer 285
+Customer 284 in line to see ticket taker
+Ticket taker takes ticket from customer 284
+Customer 285 buys Finding Nemo from Box Office Agent 1
+Box Office Agent 2 is serving customer 286
+Customer 285 in line to see ticket taker
+Customer 286 buys Finding Nemo from Box Office Agent 2
+Box Office Agent 1 is serving customer 287
+Ticket taker takes ticket from customer 285
+Customer 287 buys Finding Nemo from Box Office Agent 1
+Customer 286 in line to see ticket taker
+Ticket taker takes ticket from customer 286
+Customer 287 in line to see ticket taker
+Box Office Agent 2 is serving customer 288
+Ticket taker takes ticket from customer 287
+Box Office Agent 1 is serving customer 289
+Customer 288 buys Finding Nemo from Box Office Agent 2
+Customer 288 in line to see ticket taker
+Customer 289 buys Finding Nemo from Box Office Agent 1
+Box Office Agent 2 is serving customer 290
+Ticket taker takes ticket from customer 288
+Customer 290 buys Finding Nemo from Box Office Agent 2
+Customer 289 in line to see ticket taker
+Ticket taker takes ticket from customer 289
+Customer 290 in line to see ticket taker
+Box Office Agent 1 is serving customer 291
+Ticket taker takes ticket from customer 290
+Box Office Agent 2 is serving customer 292
+Customer 291 buys Finding Nemo from Box Office Agent 1
+Customer 291 in line to see ticket taker
+Customer 292 buys Finding Nemo from Box Office Agent 2
+Box Office Agent 1 is serving customer 293
+Ticket taker takes ticket from customer 291
+Customer 293 buys Finding Nemo from Box Office Agent 1
+Customer 292 in line to see ticket taker
+Ticket taker takes ticket from customer 292
+Box Office Agent 2 is serving customer 294
+Customer 293 in line to see ticket taker
+Customer 294 buys Finding Nemo from Box Office Agent 2
+Box Office Agent 1 is serving customer 295
+Ticket taker takes ticket from customer 293
+Customer 295 buys Finding Nemo from Box Office Agent 1
+Customer 294 in line to see ticket taker
+Ticket taker takes ticket from customer 294
+Customer 295 in line to see ticket taker
+Box Office Agent 2 is serving customer 296
+Box Office Agent 1 is serving customer 297
+Ticket taker takes ticket from customer 295
+Customer 296 buys Finding Nemo from Box Office Agent 2
+Customer 296 in line to see ticket taker
+Customer 297 buys Finding Nemo from Box Office Agent 1
+Ticket taker takes ticket from customer 296
+Box Office Agent 2 is serving customer 298
+Customer 297 in line to see ticket taker
+Customer 298 buys Finding Nemo from Box Office Agent 2
+Box Office Agent 1 is serving customer 299
+Ticket taker takes ticket from customer 297
+Customer 298 in line to see ticket taker
+Customer 299 buys Finding Nemo from Box Office Agent 1
+Ticket taker takes ticket from customer 298
+Customer 299 in line to see ticket taker
+Ticket taker takes ticket from customer 299
+total time: 59
+
+Process finished with exit code 0

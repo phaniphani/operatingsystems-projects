@@ -1,7 +1,6 @@
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.*;
-import java.util.concurrent.Semaphore;
 
 /**
  * Created by PV029500 on 12/23/2016.
@@ -9,17 +8,9 @@ import java.util.concurrent.Semaphore;
 public class InitialRun {
 
     static List<Movie> movies = new ArrayList<Movie>();
-
-    static Semaphore cashier = new Semaphore(2);
-    static Semaphore customer = new Semaphore(0);
-    static int customerCount = 30;
+    static int customerCount = 300;
     static Queue<Customer> customerQueue = new LinkedList<Customer>();
     static long startTime = System.currentTimeMillis();
-    static Semaphore customerQueueLock = new Semaphore(1);
-    static Queue<Customer> auxiliaryCustomerQ = new LinkedList<Customer>();
-    static Queue<Customer> ticketTakerQ = new LinkedList<Customer>();
-    static Semaphore ticketTakerLock = new Semaphore(0);
-    static int entranceQSize = 10;
 
     public static void main(String args[]) throws FileNotFoundException{
 
@@ -35,13 +26,15 @@ public class InitialRun {
             customerQueue.offer(customers[i]);
         }
 
-        Thread cashier1 = new Thread(new Cashier("cashier1"));
-        Thread cashier2 = new Thread(new Cashier("cashier2"));
+        Thread cashier1 = new Thread(new Cashier("Agent 1"));
+        Thread cashier2 = new Thread(new Cashier("Agent 2"));
         cashier1.start();
         cashier2.start();
+        (new Thread(new TicketTaker())).start();
 
         for (int i = 0; i < customerCount; i++)
             (new Thread(customers[i])).start();
+
     }
 
     public static class Movie {

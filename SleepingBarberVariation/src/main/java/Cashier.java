@@ -1,10 +1,14 @@
 import java.util.Random;
+import java.util.concurrent.Semaphore;
 
 /**
  * Created by PV029500 on 12/23/2016.
  */
 public class Cashier implements Runnable{
 
+    public static Semaphore movieTicketLock = new Semaphore(1);
+    static Semaphore cashier = new Semaphore(2);
+    static Semaphore customerQueueLock = new Semaphore(1);
     public String cashierName;
 
     public Cashier(String cashierName) {
@@ -12,34 +16,35 @@ public class Cashier implements Runnable{
     }
 
     public void run() {
+        System.out.println("Box Office Agent " + this.cashierName + " created");
         try {
             while (InitialRun.customerCount > 0) {
-                    InitialRun.cashier.acquire();
-                    InitialRun.customerQueueLock.acquire();
+                    cashier.acquire();
+                    customerQueueLock.acquire();
                     Customer customer = InitialRun.customerQueue.poll();
-                    InitialRun.customerQueueLock.release();
                     InitialRun.customerCount--;
+                    customerQueueLock.release();
                     if (InitialRun.customerCount >= 0) {
+                        System.out.println("Box Office " + cashierName + " is serving customer " + customer.getId());
                         int movieId = (new Random()).nextInt(5);
                         InitialRun.Movie movie = InitialRun.movies.get(movieId);
                         while(movie.ticketsLeft == 0){
                             movieId = (new Random()).nextInt(5);
                             movie = InitialRun.movies.get(movieId);
-                            System.out.println("Cashier " + cashierName + " is serving customer " + customer.getId());
-                            System.out.println(this.cashierName + " is in the loop ");
                         }
                         customer.setMovie(movie);
+                        movieTicketLock.acquire();
                         movie.ticketsLeft = movie.ticketsLeft - 1;
                         System.out.println("Customer " + customer.getId() + " buys " + customer.getMovie().movieName
-                                + " from cashier " + this.cashierName + " tickets remaining " + movie.ticketsLeft + " customer count "
-                                + InitialRun.customerCount);
+                                + " from Box Office " + this.cashierName);
+                        movieTicketLock.release();
                     }
-                    InitialRun.cashier.release();
-                    InitialRun.customer.release();
+                    Customer.customer.release();
+                    cashier.release();
+                    Customer.gotoTicketTaker(customer);
             }
-            System.out.println("Total time: " + (System.currentTimeMillis() - InitialRun.startTime));
         } catch (Exception e) {
-            System.out.println(e.getMessage());
+            e.printStackTrace();
         }
 
     }
