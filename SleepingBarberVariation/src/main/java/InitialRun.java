@@ -1,6 +1,9 @@
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.*;
+import java.util.concurrent.BrokenBarrierException;
+import java.util.concurrent.CyclicBarrier;
+import java.util.concurrent.Semaphore;
 
 /**
  * Created by PV029500 on 12/23/2016.
@@ -8,11 +11,12 @@ import java.util.*;
 public class InitialRun {
 
     static List<Movie> movies = new ArrayList<Movie>();
-    static int customerCount = 300;
+    static int customerCount = 30;
     static Queue<Customer> customerQueue = new LinkedList<Customer>();
     static long startTime = System.currentTimeMillis();
-
-    public static void main(String args[]) throws FileNotFoundException{
+    static Semaphore cashierLock = new Semaphore(0);
+    static final CyclicBarrier gate = new CyclicBarrier(3);
+    public static void main(String args[]) throws FileNotFoundException, InterruptedException, BrokenBarrierException{
 
         Scanner scanner = new Scanner(new File("src/main/resources/Movies.txt"));
         while (scanner.hasNextLine()) {
@@ -30,6 +34,7 @@ public class InitialRun {
         Thread cashier2 = new Thread(new Cashier("Agent 2"));
         cashier1.start();
         cashier2.start();
+        gate.await();
         (new Thread(new TicketTaker())).start();
 
         for (int i = 0; i < customerCount; i++)

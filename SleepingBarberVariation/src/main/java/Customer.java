@@ -9,7 +9,7 @@ public class Customer implements Runnable{
 
     int id;
     InitialRun.Movie movie;
-    static Semaphore customer = new Semaphore(0);
+    static Semaphore customer = new Semaphore(1);
     static Queue<Customer> auxiliaryCustomerQ = new LinkedList<Customer>();
     static Queue<Customer> ticketTakerQ = new LinkedList<Customer>();
     static Semaphore ticketTakerLock = new Semaphore(1);

@@ -15,8 +15,9 @@ public class Cashier implements Runnable{
     }
 
     public void run() {
-        System.out.println("Box Office Agent " + this.cashierName + " created");
         try {
+            InitialRun.gate.await();
+            System.out.println("Box Office Agent " + this.cashierName + " created");
             while (InitialRun.customerCount > 0) {
                     cashier.acquire();
                     customerQueueLock.acquire();
@@ -38,6 +39,7 @@ public class Cashier implements Runnable{
                     }
                     Customer.customer.release();
                     cashier.release();
+                    if (customer != null)
                     Customer.gotoTicketTaker(customer);
             }
         } catch (Exception e) {
