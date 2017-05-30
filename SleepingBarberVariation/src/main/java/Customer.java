@@ -22,11 +22,11 @@ public class Customer implements Runnable{
 
     public void run() {
 
-        try {
-            customer.acquire();
-        } catch (Exception e) {
-            System.out.println(e.getMessage());
-        }
+//        try {
+//            customer.acquire();
+//        } catch (Exception e) {
+//            System.out.println(e.getMessage());
+//        }
     }
 
     public static void gotoTicketTaker(Customer customer) {
